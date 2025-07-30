@@ -20,5 +20,9 @@ $act = $_GET['act'] ?? '/';
 match ($act) {
     // Trang chủ
     '/'=>(new ProductController())->Home(),
-
+    'home' => (new ProductController())->Home(),
+    // trang sản phẩm
+    'sanpham'=>(new ProductController())->SanPham(),
+    // trang thông tin 
+     'thongtin' => (new ProductController())->ThongTin()
 };
