@@ -153,6 +153,7 @@ body {
     padding: 30px 0 10px;
     font-family: sans-serif;
 }
+
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -162,23 +163,27 @@ body {
     padding: 0 20px;
     flex-wrap: wrap;
 }
+
 .footer-left img {
     max-width: 100%;
-    width: 300px;
     height: auto;
+    width: 300px;
     object-fit: cover;
     border-radius: 8px;
 }
+
 .footer-right {
     flex: 1;
     margin-left: 40px;
 }
+
 .newsletter-form {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     flex-wrap: wrap;
 }
+
 .newsletter-form input[type="email"] {
     padding: 10px;
     width: 250px;
@@ -187,6 +192,7 @@ body {
     margin: 5px 10px;
     outline: none;
 }
+
 .footer-btn {
     background-color: #fff;
     color: #000;
@@ -195,27 +201,32 @@ body {
     border-radius: 4px;
     font-weight: bold;
     transition: 0.3s;
-    margin: 5px 0;
+    margin: 5px;
     display: inline-block;
 }
+
 .footer-btn:hover {
     background-color: #FFD447;
     color: #000;
 }
+
 .social-icons a {
     margin-right: 15px;
     display: inline-block;
     margin-bottom: 10px;
 }
+
 .social-icons img {
     width: 24px;
     height: 24px;
 }
+
 .contact-info {
     font-size: 14px;
     margin-top: 10px;
     line-height: 1.6;
 }
+
 .copyright {
     text-align: center;
     padding-top: 20px;
@@ -232,28 +243,30 @@ body {
         align-items: flex-start;
         padding: 16px 20px;
     }
+
     .nav {
         flex-wrap: wrap;
         gap: 8px;
     }
-    .products {
+
+    main {
         flex-direction: column;
-        align-items: center;
+        padding: 20px;
     }
+
+    .sidebar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
     .footer-container {
         flex-direction: column;
         gap: 20px;
     }
+
     .footer-right {
         margin-left: 0;
-    }
-    .newsletter-form {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .newsletter-form input[type="email"] {
-        width: 100%;
-        margin: 5px 0;
     }
 }
 
@@ -324,6 +337,7 @@ body {
     <div>T-SHIRT</div>
     <div>PANTS</div>
 </div>
+
 <footer class="main-footer">
     <div class="footer-container">
         <div class="footer-left">
