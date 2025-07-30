@@ -24,5 +24,9 @@ match ($act) {
     // trang sản phẩm
     'sanpham'=>(new ProductController())->SanPham(),
     // trang thông tin 
-     'thongtin' => (new ProductController())->ThongTin()
+     'thongtin' => (new ProductController())->ThongTin(),
+     'dangky' => (new ProductController())->DangKy(),
+     'dangnhap' => (new ProductController())->DangNhap(),
+     'gioithieu' => (new ProductController())->GioiThieu(),
+     'lienhe' => (new ProductController())->LienHe()
 };

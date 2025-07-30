@@ -135,7 +135,7 @@
 
     <!-- Nội dung chính -->
     <main>
-        <h1>Về UNI STU</h1>
+        <h1>UNI STU</h1>
         <p>UNI STU là thương hiệu thời trang unisex hàng đầu, mang phong cách hiện đại, trẻ trung và cá tính.</p>
 
         <img src="public/images/about-banner.jpg" alt="Banner Giới thiệu">

@@ -21,4 +21,19 @@ class ProductController
     {
         require_once './views/thongtin.php';
     }
+    public function DangKy() {
+    require_once './views/dangky.php';
+    }
+
+    public function DangNhap() {
+        require_once './views/dangnhap.php';
+    }
+
+    public function GioiThieu() {
+        require_once './views/gioithieu.php';
+    }
+
+    public function LienHe() {
+        require_once './views/lienhe.php';
+    }
 }
